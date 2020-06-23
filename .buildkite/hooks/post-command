@@ -1,1 +1,2 @@
 echo "This is an example of a post-command hook from .buildkite/hooks/post-command"
+export BUILDKITE_ARTIFACT_UPLOAD_DESTINATION="gs://cicd-poc-cache/$BUILDKITE_JOB_ID"
